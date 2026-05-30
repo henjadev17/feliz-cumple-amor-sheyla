@@ -60,7 +60,6 @@ const carouselTrack = $("#carouselTrack");
 const carouselDots = $("#carouselDots");
 const prevPhoto = $("#prevPhoto");
 const nextPhoto = $("#nextPhoto");
-const storyCounter = $("#storyCounter");
 const castSpell = $("#castSpell");
 const spellMessage = $("#spellMessage");
 const toggleGifts = $("#toggleGifts");
@@ -79,7 +78,6 @@ function init() {
   renderConfigContent();
   setupAudio();
   setupCarousel();
-  setupCounter();
   setupSpells();
   setupGiftScroll();
   setupSecretExperience();
@@ -168,27 +166,6 @@ function handleSwipe() {
   const distance = state.touchEndX - state.touchStartX;
   if (Math.abs(distance) < threshold) return;
   goToSlide(state.currentSlide + (distance < 0 ? 1 : -1));
-}
-
-function setupCounter() {
-  updateCounter();
-  setInterval(updateCounter, 1000 * 60 * 60);
-}
-
-function updateCounter() {
-  const start = new Date(`${magicConfig.relationshipStartDate}T00:00:00`);
-  const now = new Date();
-  const difference = calculateDateDifference(start, now);
-  storyCounter.innerHTML = [
-    { label: "Años", value: difference.years },
-    { label: "Meses", value: difference.months },
-    { label: "Días", value: difference.days }
-  ].map((item) => `
-    <div class="counter-item">
-      <span class="counter-number">${item.value}</span>
-      <span class="counter-label">${item.label}</span>
-    </div>
-  `).join("");
 }
 
 function calculateDateDifference(startDate, endDate) {
