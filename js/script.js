@@ -119,7 +119,7 @@ function setupAudio() {
 
 function setupCarousel() {
   carouselTrack.innerHTML = magicConfig.photos.map((photo, index) => `
-    <figure class="carousel-slide" aria-label="Recuerdo ${index + 1} de ${magicConfig.photos.length}">
+    <figure class="carousel-slide" style="--slide-bg:url('${photo}')" aria-label="Recuerdo ${index + 1} de ${magicConfig.photos.length}">
       <img src="${photo}" alt="Recuerdo mágico ${index + 1} con ${magicConfig.name}" loading="lazy" decoding="async" />
     </figure>
   `).join("");
