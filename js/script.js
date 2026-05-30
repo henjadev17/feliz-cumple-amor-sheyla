@@ -4,7 +4,7 @@ const magicConfig = {
   relationshipStartDate: "2021-05-30",
   musicFile: "assets/music/theme.mp3",
   photos: [
-    "assets/images/foto1.jpg",
+    "assets/images/foto1.jpeg",
     "assets/images/foto2.jpg",
     "assets/images/foto3.jpg",
     "assets/images/foto4.jpg",
