@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Una carta mágica de cumpleaños para Sheyla, llena de romance, música y magia." />
+  <meta name="theme-color" content="#0D0D0D" />
+  <title>Feliz Cumpleaños Mi Amor Sheyla</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="site-shell" id="top">
+    <div class="magic-sky" aria-hidden="true">
+      <span class="orb orb-one"></span>
+      <span class="orb orb-two"></span>
+      <span class="orb orb-three"></span>
+      <canvas id="sparkleCanvas" class="sparkle-canvas"></canvas>
+    </div>
+
+    <header class="hero section-reveal">
+      <p class="eyebrow">Una carta entregada por lechuza</p>
+      <h1 id="heroTitle">✨ Feliz Cumpleaños Mi Amor Sheyla ✨</h1>
+      <p class="birthday-date" id="birthdayDate">30 de mayo de 2026</p>
+    </header>
+
+    <main>
+      <section class="magic-player section-card section-reveal" aria-labelledby="musicTitle">
+        <div>
+          <p class="section-kicker">Reproductor mágico</p>
+          <h2 id="musicTitle">Que empiece nuestra magia</h2>
+        </div>
+        <audio id="magicAudio" preload="metadata"></audio>
+        <div class="player-actions" aria-label="Controles de música">
+          <button class="primary-magic-button" id="activateMagic" type="button" aria-pressed="false">🦉 Activar Magia</button>
+          <button class="ghost-button" id="playMusic" type="button">Play</button>
+          <button class="ghost-button" id="pauseMusic" type="button">Pause</button>
+        </div>
+        <div class="volume-row">
+          <label for="volumeControl">Volumen</label>
+          <input id="volumeControl" type="range" min="0" max="1" step="0.05" value="0.65" />
+        </div>
+      </section>
+
+      <section class="love-letter section-card section-reveal" aria-labelledby="letterTitle">
+        <p class="section-kicker">Carta principal</p>
+        <h2 id="letterTitle">Para mi amor</h2>
+        <div class="letter-content" id="mainLetter"></div>
+      </section>
+
+      <section class="photo-section section-reveal" aria-labelledby="galleryTitle">
+        <p class="section-kicker">Nuestros recuerdos</p>
+        <h2 id="galleryTitle">Galería encantada</h2>
+        <div class="carousel" id="photoCarousel" aria-roledescription="carrusel">
+          <div class="carousel-track" id="carouselTrack"></div>
+          <button class="carousel-button carousel-button-prev" id="prevPhoto" type="button" aria-label="Foto anterior">‹</button>
+          <button class="carousel-button carousel-button-next" id="nextPhoto" type="button" aria-label="Foto siguiente">›</button>
+        </div>
+        <div class="carousel-dots" id="carouselDots" aria-label="Indicadores de fotos"></div>
+      </section>
+
+      <section class="story-counter section-card section-reveal" aria-labelledby="counterTitle">
+        <p class="section-kicker">Contador de nuestra historia</p>
+        <h2 id="counterTitle">Desde que comenzó nuestra magia...</h2>
+        <div class="counter-grid" id="storyCounter" aria-live="polite"></div>
+      </section>
+
+      <section class="spell-section section-card section-reveal" aria-labelledby="spellTitle">
+        <p class="section-kicker">Hechizos de amor</p>
+        <h2 id="spellTitle">Un mensaje escrito con magia</h2>
+        <button class="primary-magic-button" id="castSpell" type="button">💌 Lanzar Hechizo</button>
+        <p class="spell-message" id="spellMessage" aria-live="polite">Toca el botón y deja que el corazón elija un hechizo.</p>
+      </section>
+
+      <section class="gifts-section section-card section-reveal" aria-labelledby="giftsTitle">
+        <p class="section-kicker">Pergamino de los regalos</p>
+        <h2 id="giftsTitle">Una lechuza dejó instrucciones</h2>
+        <button class="primary-magic-button" id="toggleGifts" type="button" aria-expanded="false" aria-controls="giftScroll">🦉 Instrucciones para abrir tus regalos</button>
+        <div class="gift-scroll" id="giftScroll" hidden>
+          <div class="scroll-paper">
+            <ol id="giftInstructions"></ol>
+          </div>
+        </div>
+      </section>
+
+      <section class="final-experience section-reveal" aria-labelledby="finalTitle">
+        <p class="section-kicker">Gran final</p>
+        <h2 id="finalTitle">Hay algo más que debes descubrir...</h2>
+        <button class="map-button" id="openSecret" type="button">🗺️ Juro solemnemente que mis intenciones son buenas</button>
+      </section>
+    </main>
+  </div>
+
+  <section class="marauder-overlay" id="marauderOverlay" aria-hidden="true" aria-labelledby="secretTitle">
+    <div class="footprints" id="footprints" aria-hidden="true"></div>
+    <div class="secret-parchment">
+      <p class="map-kicker">Mapa del corazón</p>
+      <h2 id="secretTitle">Un secreto para Sheyla</h2>
+      <div class="secret-message" id="secretMessage"></div>
+      <p class="managed" id="managedText">Mischief Managed ❤️</p>
+      <button class="ghost-button close-secret" id="closeSecret" type="button">Cerrar magia</button>
+    </div>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
