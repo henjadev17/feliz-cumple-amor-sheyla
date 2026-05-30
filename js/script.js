@@ -5,10 +5,7 @@ const magicConfig = {
   musicFile: "assets/music/theme.mp3",
   photos: [
     "assets/images/foto1.jpeg",
-    "assets/images/foto2.jpg",
-    "assets/images/foto3.jpg",
-    "assets/images/foto4.jpg",
-    "assets/images/foto5.jpg"
+    "assets/images/IMG-20260530-WA0011.jpg", "assets/images/IMG-20260530-WA0006.jpg", "assets/images/IMG-20260530-WA0013.jpg",  "assets/images/IMG-20260530-WA0018.jpg", "assets/images/IMG-20260530-WA0017.jpg", "assets/images/IMG-20260530-WA0014.jpg"
   ],
   mainLetter: [
     "Mi amor Sheyla, hoy el universo parece brillar un poquito más fuerte, como si cada estrella hubiera recibido una invitación para celebrar tu vida.",
