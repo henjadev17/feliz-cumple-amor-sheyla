@@ -1,6 +1,6 @@
 const magicConfig = {
   name: "Sheyla",
-  birthdayDate: "30 de mayo de 2026",
+  birthdayDate: "26 de mayo de 2026",
   relationshipStartDate: "2021-05-30",
   musicFile: "assets/music/theme.mp3",
   photos: [
