@@ -13,11 +13,17 @@ const magicConfig = {
     "Gracias por ser mi calma, mi aventura y mi lugar favorito. Si la magia existe, estoy seguro de que vive en cada momento que comparto contigo. Feliz cumpleaños, mi amor." 
   ],
   finalLetter: [
-    "Gracias por llenar mi vida de magia.",
-    "Gracias por cada sonrisa, cada abrazo y cada momento compartido.",
-    "Si tuviera todos los giratiempos del mundo, elegiría volver a vivir cada instante contigo.",
+    "¿Sabes? En programación existe algo llamado código fuente.",
+  "Es la base de todo; sin él, nada de lo que ves funcionaría.",
+  "",
+  "Creo que el amor se parece un poco a eso.",
+  "Los regalos, las fotos o los momentos bonitos son solo la parte visible.",
+  "Lo que realmente importa está detrás: los detalles, la confianza y todo lo que se construye día a día.",
+  "",
+  "Y si tuviera que definir nuestro código fuente,",
+  "diría que está hecho de todos esos momentos que hemos ido escribiendo juntos.",
     "Feliz cumpleaños mi amor.",
-    "Te amo infinitamente ❤️"
+    "Te amo mucho mucho mucho ❤️"
   ],
   loveSpells: [
     "Eres mi hechizo favorito.",
