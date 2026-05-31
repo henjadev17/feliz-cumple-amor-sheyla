@@ -8,10 +8,12 @@ const magicConfig = {
     "assets/images/IMG-20260530-WA0011.jpg", "assets/images/IMG-20260530-WA0006.jpg", "assets/images/IMG-20260530-WA0013.jpg",  "assets/images/IMG-20260530-WA0018.jpg", "assets/images/IMG-20260530-WA0017.jpg", "assets/images/IMG-20260530-WA0014.jpg"
   ],
   mainLetter: [
-    "Mi amor Sheyla, hoy el universo parece brillar un poquito más fuerte, como si cada estrella hubiera recibido una invitación para celebrar tu vida.",
-    "Quise prepararte esta carta mágica para recordarte lo especial que eres para mí: tu sonrisa, tu forma de amar, tu ternura y esa luz tuya que convierte cualquier día común en un recuerdo inolvidable.",
-    "Gracias por ser mi calma, mi aventura y mi lugar favorito. Si la magia existe, estoy seguro de que vive en cada momento que comparto contigo. Feliz cumpleaños, mi amor." 
-  ],
+  "Mi amor Sheyla, hoy quería regalarte algo más que detalles; quería recordarte lo mucho que significas para mí.",
+  "Admiro la pasión que pones en las cosas que amas, desde la música que te acompaña hasta la magia de Harry Potter que tanto disfrutas. Son pequeñas cosas que forman parte de esa persona tan especial que eres.",
+  "También admiro tu esfuerzo, tu inteligencia, la dedicación que pones en tu carrera y tu capacidad para seguir adelante incluso cuando las cosas no son sencillas.",
+  "Pero más que todo, admiro tu forma de ser. Tu humanidad, la manera en que te preocupas por quienes quieres, cómo proteges a las personas importantes para ti y el cariño con el que entregas tu corazón. Son cosas que no siempre se ven a primera vista, pero que hacen que seas única.",
+  "Gracias por permitirme acompañarte en tu historia y por compartir una parte de tu vida conmigo. Espero que este pequeño detalle te recuerde lo especial que eres para mí. Feliz cumpleaños, mi amor."
+],
   finalLetter: [
     "¿Sabes? En programación existe algo llamado código fuente.",
   "Es la base de todo; sin él, nada de lo que ves funcionaría.",
