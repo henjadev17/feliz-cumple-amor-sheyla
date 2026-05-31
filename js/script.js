@@ -26,10 +26,9 @@ const magicConfig = {
     "Te amo mucho mucho mucho ❤️"
   ],
   loveSpells: [
-    "Eres mi hechizo favorito.",
-    "Ni todos los giratiempos alcanzarían para vivir todo lo que quiero contigo.",
-    "Contigo siempre encuentro mi hogar.",
-    "Mi lugar favorito siempre será a tu lado.",
+    "Me has hechizado en cuerpo y alma.",
+    "Ni todos los giratiempos (si hubieran) alcanzarían para vivir el tiempo que quiero pasar contigo.",
+    "Me encanta estar a tu lado.",
     "Tu sonrisa es la magia que ilumina mis días.",
     "En cualquier mapa, mi destino favorito eres tú."
   ],
