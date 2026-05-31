@@ -28,10 +28,57 @@ const magicConfig = {
     "En cualquier mapa, mi destino favorito eres tú."
   ],
   giftInstructions: [
-    "Comienza por el regalo más pequeño.",
-    "Luego abre el que tiene la cinta rosa.",
-    "Guarda el último para el final.",
-    "Cuando termines vuelve aquí."
+    "Antes de empezar, hay algo que debo decirte. Algunos de los regalos ya los recibiste, pero me habría gustado presentártelos de una forma más adecuada."
+
+"Uno fue para mantener tu cabellito tan bonito como siempre."
+
+"También hubo uno porque quiero que sientas que en tus ojitos no hay ninguna imperfección ni faltante."
+
+"Hubo uno más porque sé cuánto te gusta ese chocolatito."
+
+"Te entregué uno para que sientas abrigo en estas fechas frías."
+
+"Y junto a ese, un compañero de fuego para esos días."
+
+"Por último, una pequeña muestra de tu juventud y elegancia puesta en tu muñeca."
+
+"Ahora sí, comencemos con los que aún quedan por descubrir."
+
+"Empieza por algo pensado para esos días en los que necesitas un gustito y cuidar tu barriguita."
+
+"Porque unos chocolatitos nunca están de más."
+
+"Para seguir manteniendo esa piel hermosa como siempre."
+
+"Para que esos toquecitos queden exactamente como te gustan."
+
+"Porque ese cabello tan bonito también merece sus cuidados."
+
+"Porque parte de consentirse está en los pequeños detalles."
+
+"Para que esas manitos también reciban un poquito de cariño."
+
+"Porque siempre es bonito oler rico."
+
+"Porque sé cuánto te importa la higiene."
+
+"Porque brillas como la luna en la noche."
+
+"Porque la letra más bonita es la de tu nombre."
+
+"Porque eres un sol y quiero que siempre estés protegida."
+
+"Para hacer juego, variar y combinar como más te guste."
+
+"Porque un regalo para él también es un regalo para ti, y porque también lo tengo presente."
+
+"Porque sigo pensando que eres la mejor en esto, y además hay un reto pendiente para nosotros."
+
+"Porque siempre Slytherin."
+
+"Porque a veces la magia también se construye pieza por pieza."
+
+"Guarda este para el final, porque toda bruja talentosa merece potenciar su magia."
   ]
 };
 
